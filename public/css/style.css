@@ -1,0 +1,60 @@
+body{
+    background: url('../img/connectwork.png') repeat;
+    background-size: 600px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+main{
+    flex: 1 0 auto;
+  }
+  
+.articleBody{
+    height: 200px;
+    font-size: 20px;
+    overflow-y: scroll;
+    line-height: 150%;
+  }
+
+#mustache{
+    position: relative;
+    top:15px;
+    padding-left: 10px;
+    height: 63px;
+}
+
+.comments{
+    color:white;
+}
+
+#read{
+    color:white;
+    width:100%;
+}
+
+.brand-logo.center{
+    float: relative;
+    bottom: 3px;
+}
+  
+#nameComment{
+    font-weight: bold;
+    background: #004DFD;
+    color: white;
+  }
+  
+.input-field input[type=text]:focus + label {
+   color: #004DFD;
+  }
+
+.input-field input[type=text]:focus {
+   border-bottom: 1px solid #004DFD;
+   box-shadow: 0 1px 0 0 #000;
+  }
+
+.input-field .prefix.active {
+   color: #004DFD;
+  }
